@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Neupane Fruits and Vegetable Shop — Official Website</title>
+  <meta name="description" content="Neupane Fruits and Vegetable Shop offers fresh fruits and vegetables in Trishuli, Nuwakot, Nepal with home delivery service." />
+  <style>
+    :root{
+      --bg:#0f172a;
+      --panel:#111827;
+      --muted:#1f2937;
+      --card:#0b1222;
+      --text:#e5e7eb;
+      --soft:#9ca3af;
+      --brand:#22d3ee;
+      --brand-2:#34d399;
+      --accent:#f59e0b;
+      --maxw:1120px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:linear-gradient(180deg,var(--bg),#0b1020);color:var(--text);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"}
+    img{max-width:100%;display:block;height:auto;border-radius:12px}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:var(--maxw);margin-inline:auto;padding:0 1.25rem}
+    header{position:sticky;top:0;z-index:50;background:rgba(17,24,39,.8);backdrop-filter:blur(8px);border-bottom:1px solid #1f2937}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:.9rem 0}
+    h1,h2,h3{color:white;margin:0 0 .6rem}
+    section{padding:3rem 0;border-bottom:1px solid var(--muted)}
+    footer{padding:2rem 0;text-align:center;font-size:.9rem;color:var(--soft)}
+    .grid{display:grid;gap:1.5rem}
+    .grid-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+    .cards img{height:220px;object-fit:cover}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <h2>Neupane Fruits & Vegetables</h2>
+      <nav>
+        <a href="#about">About</a> | <a href="#products">Products</a> | <a href="#services">Services</a> | <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="container">
+    <h1>Welcome to Neupane Fruits and Vegetable Shop</h1>
+    <p>Located in <strong>Trishuli, Nuwakot, Nepal</strong>, we provide the freshest fruits and vegetables available in Nepal. We also offer home delivery services throughout Nuwakot.</p>
+  </section>
+
+  <section id="products" class="container">
+    <h2>Our Products</h2>
+    <div class="grid grid-2 cards">
+      <div>
+        <img src="https://imgs.search.brave.com/YwHH1LxgIrmFl4SmGMK_SlGaOeQFs9orBg0OP2T_KYU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aGVt/ZXdhZ29uLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOS8w/OC92ZWdlZm9vZHMt/MS5qcGc" alt="Fresh fruits" />
+        <h3>Fresh Fruits</h3>
+        <p>Wide variety of seasonal and tropical fruits available all year round.</p>
+      </div>
+      <div>
+        <img src="https://imgs.search.brave.com/2mT1xdDYMT9eWWgU7OikEO4n-KEWmH5PJ-NIfek5T-M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzhmLzYw/LzQ0LzhmNjA0NDlh/NGQwNzE2ZjM2NmJl/NzRlYTQ0NTY3OTgy/LmpwZw" alt="Fresh vegetables" />
+        <h3>Fresh Vegetables</h3>
+        <p>Locally grown vegetables delivered directly to your home.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="container">
+    <h2>Our Services</h2>
+    <ul>
+      <li>All types of fruits and vegetables found in Nepal</li>
+      <li>Home delivery all over Nuwakot</li>
+      <li>Wholesale and retail options available</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>📍 Trishuli, Nuwakot, Nepal</p>
+    <p>📞 Phone: 9841528191, 9803751188, 010561185</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Neupane Fruits and Vegetable Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
